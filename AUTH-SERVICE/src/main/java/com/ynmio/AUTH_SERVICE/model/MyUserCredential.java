@@ -26,4 +26,45 @@ public class MyUserCredential {
     private String password;
     private List<String> role;
 
+    public List<String> getRole() {
+        return role;
+    }
+
+    public void setRole(List<String> role) {
+        this.role = role;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    @Nonnull
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(@Nonnull String email) {
+        this.email = email;
+    }
+
+    @Nonnull
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(@Nonnull String password) {
+        this.password = password;
+    }
 }
